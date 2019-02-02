@@ -7,9 +7,11 @@ void setup(){
   XML trkseg = xml.getChild("trk/trkseg");
 
 
- XML[] points = trkseg.getChildren();
+  XML[] points = trkseg.getChildren();
  
- println(points[0].getName() + " " + points[1].getName() + points[2].getName() + " " + points[3].getName());
+  println(points[0].getName() + " " + points[1].getName() + points[2].getName() + " " + points[3].getName());
+  int counter = -1;
+  double totalDist = 0;
   
   for(int i = 0; i < points.length; i++) {
     if (points[i].getName().equals("trkpt")) {
@@ -17,12 +19,17 @@ void setup(){
       double lat = points[i].getFloat("lat");
       double elev = points[i].getChild("ele").getFloatContent();
       String time = points[i].getChild("time").getContent();
-      
       println(lon);
       println(lat);
       println(elev);
       println(time);
       waypoints.add(new Waypoint(lon, lat, elev, time));
+      counter++;
+      if (waypoints.size() > 1) {
+        double dist = getDistance(waypoints.get(counter-1), waypoints.get(counter));
+        totalDist += dist;
+        waypoints.get(counter).setDistance(dist, totalDist);
+      }
     }
   }
   
