@@ -18,6 +18,10 @@ void setup(){
   // Calculate nextDist and nextTime values for waypoints
   calcNextValues();
   
+  //calcSpeed();
+  
+  //calcSlope();
+  
   // Print every Waypoint in waypoints
   for (int j = 0; j < waypoints.size(); j++) {
     println(waypoints.get(j).toString());
@@ -66,6 +70,13 @@ public void calcNextValues() {
     int t = getTime(waypoints.get(i), waypoints.get(i + 1));
     waypoints.get(i).setNextDistance(dist);
     waypoints.get(i).setNextTime(t);
+  }
+}
+
+public void calcSpeed() {
+  for (int i = 0; i < waypoints.size(); i++) {
+    double dist = waypoints.get(i).getNextDistance();
+    double t = waypoints.get(i).getNextTime();
   }
 }
 

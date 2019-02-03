@@ -14,6 +14,9 @@ public class Waypoint {
   private int nextTime;
   private int totalTime;
   
+  private double speed;
+  private double slope;
+  
   // Constructor
   
   public Waypoint (double longitude, double lattitude, float elevation, String dateTime) {
@@ -21,6 +24,7 @@ public class Waypoint {
     lat = lattitude;
     elev = elevation;
     t = dateTime.substring(dateTime.indexOf("T") + 1, dateTime.length()-1);
+    
     prevDistance = 0;
     nextDistance = 0;
     totalDistance = 0;
@@ -28,6 +32,9 @@ public class Waypoint {
     prevTime = 0;
     nextTime = 0;
     totalTime = 0;
+    
+    speed = 0;
+    slope = 0;
   }
   
   // Getters
@@ -70,6 +77,14 @@ public class Waypoint {
   
   public int getTotalTime() {
     return totalTime;
+  }
+  
+  public double getSpeed() {
+    return speed;
+  }
+  
+  public double getSlope() {
+    return slope;
   }
   
   public String toString() { 
