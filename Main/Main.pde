@@ -1,3 +1,6 @@
+import processing.video.*;
+import processing.io.*;
+
 XML xml;
 
 ArrayList<Waypoint> waypoints = new ArrayList<Waypoint>();
