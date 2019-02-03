@@ -10,9 +10,26 @@ void setup(){
   // Array of trkpts
   XML[] points = trkseg.getChildren();
   
-  // Convert trkpts to Waypoints
+  convertToWaypoints(points);
+  
+  // Calculate nextDist and nextTime values for waypoints
+  calcNextValues();
+  
+  // Print every Waypoint in waypoints
+  for (int j = 0; j < waypoints.size(); j++) {
+    println(waypoints.get(j).toString());
+  }
+  
+}
+
+  
+}
+
+// Convert trkpts to Waypoints
+public void convertToWaypoints(XML[] points) {
   int counter = -1;
   double totalDist = 0;
+  int totalTime = 0;
   
   for(int i = 0; i < points.length; i++) {
     if (points[i].getName().equals("trkpt")) {
@@ -30,33 +47,27 @@ void setup(){
         double dist = getDistance(waypoints.get(counter-1), waypoints.get(counter));
         totalDist += dist;
         waypoints.get(counter).setDistance(dist, totalDist);
+        
+        int t = getTime(waypoints.get(counter - 1), waypoints.get(counter));
+        totalTime += t;
+        waypoints.get(counter).setTime(t, totalTime);
       }
     }
   }
-  
-  
-  // Convert String times to Integer times for each waypoint
-  int totalTime = 0;
-  for (int i = 1; i < waypoints.size(); i++) {
-    int time = getTime(waypoints.get(i - 1), waypoints.get(i));
-    totalTime += time;
-    waypoints.get(i).setTime(time, totalTime);
-  }
-  
-  // Print every Waypoint in waypoints
-  for (int j = 0; j < waypoints.size(); j++) {
-    println(waypoints.get(j).toString());
-  }
-  
 }
 
-void draw() {
-  
+public void calcNextValues() {
+  for (int i = 0; i < waypoints.size() - 1; i++) {
+    double dist = getDistance(waypoints.get(i), waypoints.get(i + 1));
+    int t = getTime(waypoints.get(i), waypoints.get(i + 1));
+    waypoints.get(i).setNextDistance(dist);
+    waypoints.get(i).setNextTime(t);
+  }
 }
 
 public double getDistance (Waypoint a, Waypoint b) {
     double xSquared = Math.pow(((111321 * cos(PI/180 * (float)(a.getLat() + b.getLat())/2)) * (b.getLon() - a.getLon())), 2);
-    double ySquared = Math.pow((111321 * (b.getLat() - a.getLat())), 2);
+    double ySquared = Math.pow(111321 * (a.getLat() - b.getLat()), 2);
     double d;
     
     d = Math.sqrt(xSquared + ySquared);
