@@ -18,9 +18,9 @@ void setup(){
   // Calculate nextDist and nextTime values for waypoints
   calcNextValues();
   
-  //calcSpeed();
+  calcSpeed();
   
-  //calcSlope();
+  calcSlope();
   
   // Print every Waypoint in waypoints
   for (int j = 0; j < waypoints.size(); j++) {
@@ -68,24 +68,42 @@ public void calcNextValues() {
   for (int i = 0; i < waypoints.size() - 1; i++) {
     double dist = getDistance(waypoints.get(i), waypoints.get(i + 1));
     int t = getTime(waypoints.get(i), waypoints.get(i + 1));
+    
     waypoints.get(i).setNextDistance(dist);
     waypoints.get(i).setNextTime(t);
   }
 }
 
 public void calcSpeed() {
-  for (int i = 0; i < waypoints.size(); i++) {
+  for (int i = 0; i < waypoints.size()-1; i++) {
     double dist = waypoints.get(i).getNextDistance();
-    double t = waypoints.get(i).getNextTime();
+    int t = waypoints.get(i).getNextTime();
+    double speed = dist/t; 
+    
+    waypoints.get(i).setSpeed(speed);
+  }
+}
+
+public void calcSlope() {
+  for (int i = 1; i < waypoints.size()-1; i++) {
+    double prevElev = waypoints.get(i-1).getElev();
+    double nextElev = waypoints.get(i + 1).getElev();
+    
+    double dist = waypoints.get(i).getNextDistance() + waypoints.get(i).getPrevDistance();
+    double slope = 0;
+    
+    if (dist != 0) {
+      slope = 180/PI * atan((float)((nextElev - prevElev)/(dist)));
+    }
+    waypoints.get(i).setSlope(slope);
   }
 }
 
 public double getDistance (Waypoint a, Waypoint b) {
     double xSquared = Math.pow(((111321 * cos(PI/180 * (float)(a.getLat() + b.getLat())/2)) * (b.getLon() - a.getLon())), 2);
     double ySquared = Math.pow(111321 * (a.getLat() - b.getLat()), 2);
-    double d;
     
-    d = Math.sqrt(xSquared + ySquared);
+    double d = Math.sqrt(xSquared + ySquared);
     return d;
 }
 

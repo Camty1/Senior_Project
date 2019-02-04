@@ -88,7 +88,7 @@ public class Waypoint {
   }
   
   public String toString() { 
-    return "Lattitude: " + getLat() + " Longitude: " + getLon() + "\nElevation: " + getElev() + " Time: " + getStringTime() + " | " + getTotalTime() + "s\nPrev Distance: " + getPrevDistance() + " Next Distance: " + getNextDistance() + " Total Distance: " + getTotalDistance();
+    return "Lattitude: " + getLat() + " Longitude: " + getLon() + " Slope: " + getSlope() + "\nElevation: " + getElev() + " Time: " + getStringTime() + " | " + getTotalTime() + "s Speed:" + getSpeed() + "m/s\nPrev Distance: " + getPrevDistance() + " Next Distance: " + getNextDistance() + " Total Distance: " + getTotalDistance();
   }
   
   // Setters
@@ -117,5 +117,13 @@ public class Waypoint {
   
   public void setNextTime(int nextT) {
     nextTime = nextT;
+  }
+  
+  public void setSpeed(double s) {
+    speed = s;
+  }
+  
+  public void setSlope(double sl) {
+    slope = sl;
   }
 }
