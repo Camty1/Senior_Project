@@ -2,13 +2,21 @@ import processing.video.*;
 import processing.io.*;
 
 XML xml;
+Movie testVideo;
+
+int indexTimer = 0;
 
 ArrayList<Waypoint> waypoints = new ArrayList<Waypoint>();
 
 void setup(){
+  size(1280, 720);
+  
   // XML setup
-  xml = loadXML("AspenGPS.xml");
+  xml = loadXML("Test2.xml");
   XML trkseg = xml.getChild("trk/trkseg");
+  
+  // Movie setup
+  testVideo = new Movie(this, "TestVideo.mov");
 
   // Array of trkpts
   XML[] points = trkseg.getChildren();
@@ -18,18 +26,34 @@ void setup(){
   // Calculate nextDist and nextTime values for waypoints
   calcNextValues();
   
+  // Calculate Speed and Slope for each Waypoint
   calcSpeed();
-  
   calcSlope();
   
   // Print every Waypoint in waypoints
   for (int j = 0; j < waypoints.size(); j++) {
     println(waypoints.get(j).toString());
   }
-  
+  testVideo.loop();
 }
 
 void draw() {
+  double skiErgSpeed = 5; // in m/s, this is just test data
+  int timer = millis()/1000;
+  if (indexTimer < waypoints.size() && testVideo.available()) {
+    testVideo.read();
+    image (testVideo, 0, 0);
+    if (timer > waypoints.get(indexTimer).getTotalTime()) {
+      indexTimer++;
+      float scaleFactor = (float)(skiErgSpeed/waypoints.get(indexTimer).getSpeed());
+      if (scaleFactor < 20) {
+        testVideo.speed(scaleFactor);
+      }
+      println(indexTimer);
+    }
+    println(timer);
+  }
+  
   
 }
 
