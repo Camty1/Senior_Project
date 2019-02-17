@@ -81,6 +81,58 @@ public class CSAFE_dic {
 		// Short
 		resp.put(0x80, new RespDicElement("CSAFE_GETSTATUS_CMD", new ArrayList<Integer>(Arrays.asList(0))));
 		resp.put(0x81, new RespDicElement("CSAFE_RESET_CMD", new ArrayList<Integer>(Arrays.asList(0))));
+		resp.put(0x82, new RespDicElement("CSAFE_GOIDLE_CMD", new ArrayList<Integer>(Arrays.asList(0))));
+		resp.put(0x83, new RespDicElement("CSAFE_GOHAVEID_CMD", new ArrayList<Integer>(Arrays.asList(0))));
+		resp.put(0x85, new RespDicElement("CSAFE_GOINUSE_CMD", new ArrayList<Integer>(Arrays.asList(0))));
+		resp.put(0x86, new RespDicElement("CSAFE_GOFINISHED_CMD", new ArrayList<Integer>(Arrays.asList(0))));
+		resp.put(0x87, new RespDicElement("CSAFE_GOREADY_CMD", new ArrayList<Integer>(Arrays.asList(0))));
+		resp.put(0x88, new RespDicElement("CSAFE_BADID_CMD", new ArrayList<Integer>(Arrays.asList(0))));
+		resp.put(0x91, new RespDicElement("CSAFE_GETVERSION_CMD", new ArrayList<Integer>(Arrays.asList(1, 1, 1, 2, 2))));
+		resp.put(0x92, new RespDicElement("CSAFE_GETID_CMD", new ArrayList<Integer>(Arrays.asList(-5))));
+		resp.put(0x93, new RespDicElement("CSAFE_GETUNITS_CMD", new ArrayList<Integer>(Arrays.asList(1))));
+		resp.put(0x94, new RespDicElement("CSAFE_GETSERIAL_CMD", new ArrayList<Integer>(Arrays.asList(-9))));
+		resp.put(0x9B, new RespDicElement("CSAFE_GETODOMETER_CMD", new ArrayList<Integer>(Arrays.asList(4, 1))));
+		resp.put(0x9C, new RespDicElement("CSAFE_GETERRORCODE_CMD", new ArrayList<Integer>(Arrays.asList(3))));
+		resp.put(0xA0, new RespDicElement("CSAFE_GETWORK_CMD", new ArrayList<Integer>(Arrays.asList(1, 1, 1))));
+		resp.put(0xA1, new RespDicElement("CSAFE_GETHORIZONTAL_CMD", new ArrayList<Integer>(Arrays.asList(2, 1))));
+		resp.put(0xA3, new RespDicElement("CSAFE_GETCALORIES_CMD", new ArrayList<Integer>(Arrays.asList(2))));
+		resp.put(0xA4, new RespDicElement("CSAFE_GETPROGRAM_CMD", new ArrayList<Integer>(Arrays.asList(1))));
+		resp.put(0xA6, new RespDicElement("CSAFE_GETPACE_CMD", new ArrayList<Integer>(Arrays.asList(2, 1))));
+		resp.put(0xA7, new RespDicElement("CSAFE_GETCADANCE_CMD", new ArrayList<Integer>(Arrays.asList(2, 1))));
+		resp.put(0xAB, new RespDicElement("CSAFE_GETUSERINFO_CMD", new ArrayList<Integer>(Arrays.asList(2, 1, 1, 1))));
+		resp.put(0xB0, new RespDicElement("CSAFE_GETHRCUR_CMD", new ArrayList<Integer>(Arrays.asList(1))));
+		resp.put(0xB4, new RespDicElement("CSAFE_GETPOWER_CMD", new ArrayList<Integer>(Arrays.asList(2, 1))));
+		// PM3 Specific
+		resp.put(0x1A89, new RespDicElement("CSAFE_PM_GET_WORKOUTTYPE", new ArrayList<Integer>(Arrays.asList(1))));
+		resp.put(0x1AC1, new RespDicElement("CSAFE_PM_GET_DRAGFACTOR", new ArrayList<Integer>(Arrays.asList(1))));
+		resp.put(0x1ABF, new RespDicElement("CSAFE_PM_GET_STROKESTATE", new ArrayList<Integer>(Arrays.asList(1))));
+		resp.put(0x1AA0, new RespDicElement("CSAFE_PM_GET_WORKTIME", new ArrayList<Integer>(Arrays.asList(4, 1))));
+		resp.put(0x1AA3, new RespDicElement("CSAFE_PM_GET_WORKDISTANCE", new ArrayList<Integer>(Arrays.asList(4, 1))));
+		resp.put(0x1AC9, new RespDicElement("CSAFE_PM_GET_ERRORVALUE", new ArrayList<Integer>(Arrays.asList(2))));
+		resp.put(0x1A8D, new RespDicElement("CSAFE_PM_GET_WORKOUTSTATE", new ArrayList<Integer>(Arrays.asList(1))));
+		resp.put(0x1A9F, new RespDicElement("CSAFE_PM_GET_WORKOUTINTERVALCOUNT", new ArrayList<Integer>(Arrays.asList(1))));
+		resp.put(0x1A8E, new RespDicElement("CSAFE_PM_GET_INTERVALTYPE", new ArrayList<Integer>(Arrays.asList(1))));
+		resp.put(0x1ACF, new RespDicElement("CSAFE_PM_GET_RESTTIME", new ArrayList<Integer>(Arrays.asList(2))));
+		
+		// Long
+		resp.put(0x01, new RespDicElement("CSAFE_AUTOUPLOAD_CMD", new ArrayList<Integer>(Arrays.asList(0))));
+		resp.put(0x10, new RespDicElement("CSAFE_IDDIGITS_CMD", new ArrayList<Integer>(Arrays.asList(0))));
+		resp.put(0x11, new RespDicElement("CSAFE_SETTIME_CMD", new ArrayList<Integer>(Arrays.asList(0))));
+		resp.put(0x12, new RespDicElement("CSAFE_SETDATE_CMD", new ArrayList<Integer>(Arrays.asList(0))));
+		resp.put(0x13, new RespDicElement("CSAFE_SETTIMEOUT_CMD", new ArrayList<Integer>(Arrays.asList(0))));
+		resp.put(0x1A, new RespDicElement("CSAFE_SETUSERCFG1_CMD", new ArrayList<Integer>(Arrays.asList(0))));
+		resp.put(0x20, new RespDicElement("CSAFE_SETTWORK_CMD", new ArrayList<Integer>(Arrays.asList(0))));
+		resp.put(0x21, new RespDicElement("CSAFE_SETHORIZONTAL_CMD", new ArrayList<Integer>(Arrays.asList(0))));
+		resp.put(0x23, new RespDicElement("CSAFE_SETCALORIES_CMD", new ArrayList<Integer>(Arrays.asList(0))));
+		resp.put(0x24, new RespDicElement("CSAFE_SETPROGRAM_CMD", new ArrayList<Integer>(Arrays.asList(0))));
+		resp.put(0x34, new RespDicElement("CSAFE_SETPOWER_CMD", new ArrayList<Integer>(Arrays.asList(0))));
+		resp.put(0x70, new RespDicElement("CSAFE_GETCAPS_CMD", new ArrayList<Integer>(Arrays.asList(11))));
+		// PM3 Specific
+		resp.put(0x1A05, new RespDicElement("CSAFE_PM_SET_SPLITDURATION", new ArrayList<Integer>(Arrays.asList(0))));
+		resp.put(0x1A6B, new RespDicElement("CSAFE_PM_GET_FORCEPLOTDATA", new ArrayList<Integer>(Arrays.asList(1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2))));
+		resp.put(0x1A27, new RespDicElement("CSAFE_PM_SET_SCREENERRORMODE", new ArrayList<Integer>(Arrays.asList(0))));
+		resp.put(0x1A6C, new RespDicElement("CSAFE_PM_GET_HEARBEATDATA", new ArrayList<Integer>(Arrays.asList(1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2))));
+		
 	}
 	
 }
