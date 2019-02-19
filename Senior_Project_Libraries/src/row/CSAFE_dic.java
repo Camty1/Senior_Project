@@ -4,20 +4,21 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 
-public class CSAFE_dic {
+public class CSAFE_dic {		
 	
-	public static void main(String[] args) {
-		
-		// Unique Flags
-		int Extended_Frame_Start_Flag = 0xF0;
-		int Standard_FrameStart_Flag = 0xF1;
-		int Stop_Frame_Flag = 0xF2;
-		int Byte_Stuffing_Flag = 0xF3;
-		
-		// Initializing of Command and Response HashMaps
-		HashMap<String, CmdDicElement> cmds = new HashMap<String, CmdDicElement>();
-		HashMap<Integer, RespDicElement> resp = new HashMap<Integer, RespDicElement>();
-		
+	// Unique Flags
+	int Extended_Frame_Start_Flag = 0xF0;
+	int Standard_FrameStart_Flag = 0xF1;
+	int Stop_Frame_Flag = 0xF2;
+	int Byte_Stuffing_Flag = 0xF3;
+	
+	// Initializing of Command and Response HashMaps
+	static HashMap<String, CmdDicElement> cmds = new HashMap<String, CmdDicElement>();
+	static HashMap<Integer, RespDicElement> resp = new HashMap<Integer, RespDicElement>();
+	
+	
+	public void main(String[] args) {
+	
 		// Commands
 		
 		// Short
@@ -135,5 +136,16 @@ public class CSAFE_dic {
 		
 	}
 	
+	public static HashMap<String, CmdDicElement> getCmds() {
+		
+		return cmds;
+	
+	}
+	
+	public static HashMap<Integer, RespDicElement> getResp() {
+	
+		return resp;
+		
+	}
 }
 

@@ -30,4 +30,42 @@ public class CSAFE_cmd {
 		return num;
 		
 	}
+	
+	public String bytesToAscii (ArrayList<Integer> rawBytes) {
+
+		String word = "";
+		
+		for (int i : rawBytes) {
+			char ch = (char) i;
+			word += ch;
+		}
+		
+		return word;
+	}
+	
+	public ArrayList<Integer> write(ArrayList<String> arguments) {
+		
+		int i = 0;
+		int wrapper = 0;
+		int maxResponse = 3;
+		
+		ArrayList<Integer> message = new ArrayList<Integer>();
+		ArrayList<Integer> wrapped = new ArrayList<Integer>();
+		
+		while (i < arguments.size()) {
+			
+			String arg = arguments.get(i);
+			CmdDicElement cmdProp = CSAFE_dic.getCmds().get(arg);
+			ArrayList<Integer> command = new ArrayList<Integer>();
+			
+			if (cmdProp.getBytes().size() != 0) {
+				for (int byteValue : cmdProp.getBytes()) {
+					// int intValue = ; Ask for help on this step, original library doesn't make sense
+				}
+			}
+		}
+		
+		
+		return message;
+	}
 }

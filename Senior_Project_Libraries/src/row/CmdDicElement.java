@@ -38,5 +38,22 @@ public class CmdDicElement {
 		
 	}
 
+	public int getCmdId() {
 		
+		return cmdId;
+		
+	}
+	
+	public ArrayList<Integer> getBytes() {
+		
+		return bytes;
+		
+	}
+	
+	public int getNextCmdId() {
+		
+		return nextCmdId;
+	
+	}
+	
 }
