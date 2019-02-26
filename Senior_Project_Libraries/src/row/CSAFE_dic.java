@@ -7,10 +7,10 @@ import java.util.HashMap;
 public class CSAFE_dic {		
 	
 	// Unique Flags
-	int Extended_Frame_Start_Flag = 0xF0;
-	int Standard_FrameStart_Flag = 0xF1;
-	int Stop_Frame_Flag = 0xF2;
-	int Byte_Stuffing_Flag = 0xF3;
+	static int Extended_Frame_Start_Flag = 0xF0;
+	static int Standard_FrameStart_Flag = 0xF1;
+	static int Stop_Frame_Flag = 0xF2;
+	static int Byte_Stuffing_Flag = 0xF3;
 	
 	// Initializing of Command and Response HashMaps
 	static HashMap<String, CmdDicElement> cmds = new HashMap<String, CmdDicElement>();
@@ -146,6 +146,12 @@ public class CSAFE_dic {
 	
 		return resp;
 		
+	}
+	
+	public static Integer getByteStuffingFlag() {
+		
+		return Byte_Stuffing_Flag;
+	
 	}
 }
 

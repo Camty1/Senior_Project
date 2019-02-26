@@ -60,9 +60,54 @@ public class CSAFE_cmd {
 			
 			if (cmdProp.getBytes().size() != 0) {
 				for (int byteValue : cmdProp.getBytes()) {
-					// int intValue = ; Ask for help on this step, original library doesn't make sense
+					int intValue = cmdProp.getNextCmdId();
+					ArrayList<Integer> value = intToBytes(byteValue, intValue);
+					command.addAll(value);
 				}
+				
+				int cmdLength = command.size();
+				command.add(0, cmdLength);
 			}
+			
+			command.add(0, cmdProp.getCmdId());
+			
+			if (wrapped.size() > 0 && (!cmdProp.hasNextCmdId() || cmdProp.getNextCmdId() != wrapper)) {
+				wrapped.add(0, wrapped.size());
+				wrapped.add(0, wrapper);
+				message.addAll(wrapped);
+				wrapped.clear();
+				wrapper = 0;
+			}
+			
+			if (cmdProp.hasNextCmdId()) {
+				
+				if (wrapper == cmdProp.getNextCmdId()) {
+					
+					wrapped.addAll(command);
+				
+				}
+				
+				else {
+					
+					wrapped = command;
+					wrapper = cmdProp.getNextCmdId();
+					maxResponse += 2;
+					
+				}
+				
+				command.clear();
+				
+			}
+			
+			int cmdId = cmdProp.getCmdId() | (wrapper << 8);
+			
+			int sum = 0;
+			
+			for (int j : cmdProp.getBytes()) {
+				sum += j;
+			}
+			
+			maxResponse += Math.abs(sum) * 2 + 1;
 		}
 		
 		

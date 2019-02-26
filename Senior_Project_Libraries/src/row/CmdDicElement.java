@@ -7,6 +7,8 @@ public class CmdDicElement {
 	int cmdId;
 	ArrayList<Integer> bytes;
 	int nextCmdId;
+	
+	private Boolean hasNextId = false;
 		
 	public CmdDicElement(int Id) {
 	
@@ -35,6 +37,7 @@ public class CmdDicElement {
 		cmdId = Id;
 		bytes = bytesList;
 		nextCmdId = nextId;
+		hasNextId = true;
 		
 	}
 
@@ -53,6 +56,11 @@ public class CmdDicElement {
 	public int getNextCmdId() {
 		
 		return nextCmdId;
+	
+	}
+	
+	public Boolean hasNextCmdId() {
+		return hasNextId;
 	
 	}
 	
