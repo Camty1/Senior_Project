@@ -60,6 +60,7 @@ public class CmdDicElement {
 	}
 	
 	public Boolean hasNextCmdId() {
+		
 		return hasNextId;
 	
 	}

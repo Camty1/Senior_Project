@@ -8,7 +8,7 @@ public class CSAFE_dic {
 	
 	// Unique Flags
 	static int Extended_Frame_Start_Flag = 0xF0;
-	static int Standard_FrameStart_Flag = 0xF1;
+	static int Standard_Frame_Start_Flag = 0xF1;
 	static int Stop_Frame_Flag = 0xF2;
 	static int Byte_Stuffing_Flag = 0xF3;
 	
@@ -152,6 +152,24 @@ public class CSAFE_dic {
 		
 		return Byte_Stuffing_Flag;
 	
+	}
+	
+	public static int getStandardStartFlag() {
+		
+		return Standard_Frame_Start_Flag;
+		
+	}
+	
+	public static int getExtendedStartFlag() {
+		
+		return Extended_Frame_Start_Flag;
+		
+	}
+	
+	public static int getStopFlag() {
+		
+		return Stop_Frame_Flag;
+		
 	}
 }
 

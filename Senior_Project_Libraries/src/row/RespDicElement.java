@@ -12,4 +12,16 @@ public class RespDicElement {
 		bytes = bytesList;
 	
 	}
+	
+	public String getCmdName() {
+		
+		return cmdName;
+		
+	}
+	
+	public ArrayList<Integer> getBytes() {
+		
+		return bytes;
+		
+	}
 }
