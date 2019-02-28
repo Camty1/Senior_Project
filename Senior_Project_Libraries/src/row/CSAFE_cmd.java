@@ -213,6 +213,8 @@ public class CSAFE_cmd {
 			return new ArrayList<Integer>();
 		}
 		
+		message.remove(message.size() - 1);
+		
 		return message;
 		
 	}
