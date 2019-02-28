@@ -1,6 +1,8 @@
 package row;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
 
 public class CSAFE_cmd {
 	
@@ -216,6 +218,162 @@ public class CSAFE_cmd {
 		message.remove(message.size() - 1);
 		
 		return message;
+		
+	}
+	
+	public HashMap<String, ArrayList> read(ArrayList<Integer> transmission) {
+		
+		ArrayList<Integer> message = new ArrayList<Integer>();
+		boolean stopFound = false;
+		
+		int j = 0;
+		
+		int startFlag = transmission.get(1);
+		
+		if (startFlag == CSAFE_dic.getExtendedStartFlag()) {
+			
+			j = 4;
+			
+		}
+		
+		else if (startFlag == CSAFE_dic.getStandardStartFlag()) {
+			
+			j = 2;
+			
+		}
+		
+		else {
+			
+			System.out.println("No Start Flag found");
+			return new HashMap<String, ArrayList>();
+			
+		}
+		
+		while (j < transmission.size()) {
+			
+			if (transmission.get(j) == CSAFE_dic.getStopFlag()) {
+				
+				stopFound = true;
+				break;
+				
+			}
+			
+			message.add(transmission.get(j));
+			j++;
+			
+		}
+		
+		if (!stopFound) {
+			
+			System.out.println("No Stop Flag found");
+			return new HashMap<String, ArrayList>();
+			
+		}
+		
+		message = checkMessage(message);
+		int status = message.get(0);
+		message.remove(0);
+		
+		HashMap<String, ArrayList> response = new HashMap<String, ArrayList>();
+		response.put("CSAFE_GETSTATUS_CMD", new ArrayList(Arrays.asList(status)));
+		
+		int k = 0;
+		int wrapend = -1;
+		int wrapper = 0x0;
+		
+		while (k < message.size()) {
+			
+			ArrayList result = new ArrayList<>();
+			
+			int msgCmd = message.get(k);
+			
+			if (k <= wrapend) {
+				
+				msgCmd = wrapper | msgCmd;
+				
+			}
+			
+			RespDicElement msgProp = CSAFE_dic.getResp().get(msgCmd);
+			
+			k++;
+			
+			int byteCount = message.get(k);
+			
+			k++;
+			
+			if (msgProp.getCmdName() == "CSAFE_SETUSERCFG1_CMD") {
+				
+				wrapper = message.get(k - 2) << 8;
+				wrapend = k + byteCount - 1;
+				
+				if (byteCount != 0) {
+					
+					msgCmd = wrapper | message.get(k);
+					msgProp = CSAFE_dic.getResp().get(msgCmd);
+					k++;
+					
+					byteCount = message.get(k);
+					k++;
+					
+				}
+				
+			}
+			
+			if (msgProp.getCmdName() == "CSAFE_GETCAPS_CMD") {
+				
+				msgProp.setBytes(new ArrayList<Integer>(Arrays.asList(byteCount)));
+				
+			}
+			
+			if (msgProp.getCmdName() == "CSAFE_GETID_CMD") {
+				
+				msgProp.setBytes(new ArrayList<Integer>(Arrays.asList((-byteCount))));
+				
+			}
+			
+			int tempSum = 0;
+			
+			for (int i : msgProp.getBytes()) {
+				
+				tempSum += i;
+				
+			}
+			
+			if (Math.abs(tempSum) != 0 && byteCount != Math.abs(tempSum)) {
+				
+				System.out.println("Warning! Byte Count is an unexpected length");
+				
+			}
+			
+			for (int numBytes : msgProp.getBytes()) {
+				
+				ArrayList<Integer> rawBytes = new ArrayList<Integer>();
+				
+				for (int i = k; i < k + Math.abs(tempSum) + k; i++) {
+					
+					rawBytes.set(i, msgProp.getBytes().get(i));
+					
+				}
+				
+				
+				
+				if (numBytes >= 0) {
+					int value = 0;
+					value = bytesToInteger(rawBytes);
+					result.add(value);
+				}
+				
+				else {
+					String value = "";
+					value = bytesToAscii(rawBytes);
+					result.add(value);
+				}
+				k += Math.abs(numBytes);
+			}
+			response.put(msgProp.getCmdName(), result);
+		}
+		
+		return response;
 		
 	}
 }

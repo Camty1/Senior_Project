@@ -24,4 +24,10 @@ public class RespDicElement {
 		return bytes;
 		
 	}
+	
+	public void setBytes(ArrayList<Integer> byteArray) {
+		
+		bytes = byteArray;
+		
+	}
 }
