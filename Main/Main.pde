@@ -12,11 +12,11 @@ void setup(){
   size(1280, 720);
   
   // XML setup
-  xml = loadXML("Test2.xml");
+  xml = loadXML("MaloitGPS.xml");
   XML trkseg = xml.getChild("trk/trkseg");
   
   // Movie setup
-  testVideo = new Movie(this, "TestVideo.mov");
+  testVideo = new Movie(this, "Maloit.mov");
 
   // Array of trkpts
   XML[] points = trkseg.getChildren();
@@ -38,7 +38,7 @@ void setup(){
 }
 
 void draw() {
-  double skiErgSpeed = 5; // in m/s, this is just test data
+  double skiErgSpeed = 5.0; // in m/s, this is just test data
   int timer = millis()/1000;
   if (indexTimer < waypoints.size() && testVideo.available()) {
     testVideo.read();
@@ -46,12 +46,11 @@ void draw() {
     if (timer > waypoints.get(indexTimer).getTotalTime()) {
       indexTimer++;
       float scaleFactor = (float)(skiErgSpeed/waypoints.get(indexTimer).getSpeed());
-      if (scaleFactor < 20) {
+      if (scaleFactor < 20 && scaleFactor > 0) {
         testVideo.speed(scaleFactor);
       }
       println(indexTimer);
     }
-    println(timer);
   }
   
   
