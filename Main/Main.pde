@@ -1,12 +1,18 @@
+import processing.serial.*;
 import processing.video.*;
 import processing.io.*;
 
+byte[] cmdBytes = new byte[5];
+
+
 XML xml;
 Movie testVideo;
+Serial ergPort;
 
 int indexTimer = 0;
 
 ArrayList<Waypoint> waypoints = new ArrayList<Waypoint>();
+
 
 void setup(){
   size(1280, 720);
@@ -30,11 +36,20 @@ void setup(){
   calcSpeed();
   calcSlope();
   
-  // Print every Waypoint in waypoints
+  /* Print every Waypoint in waypoints 
   for (int j = 0; j < waypoints.size(); j++) {
     println(waypoints.get(j).toString());
-  }
+  }*/
   testVideo.loop();
+  
+  
+  
+  cmdBytes[0] = (byte)0xF1; // Start Flag
+  cmdBytes[1] = (byte)0xA1; // GetHorizontal
+  cmdBytes[2] = (byte)0xA6; // GetPace
+  cmdBytes[3] = (byte)0x07; // CheckSum
+  cmdBytes[4] = (byte)0xF2; // EndFlag
+  
 }
 
 void draw() {
@@ -49,7 +64,7 @@ void draw() {
       if (scaleFactor < 20 && scaleFactor > 0) {
         testVideo.speed(scaleFactor);
       }
-      println(indexTimer);
+      //println(indexTimer);
     }
   }
   
@@ -68,10 +83,12 @@ public void convertToWaypoints(XML[] points) {
       double lat = points[i].getFloat("lat");
       float elev = points[i].getChild("ele").getFloatContent();
       String time = points[i].getChild("time").getContent();
+      /*
       println(lon);
       println(lat);
       println(elev);
       println(time);
+      */
       waypoints.add(new Waypoint(lon, lat, elev, time));
       counter++;
       if (waypoints.size() > 1) {
