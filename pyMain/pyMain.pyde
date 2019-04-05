@@ -7,7 +7,8 @@ waypoints = []
 def setup():
     size(1280, 720)
     XMLtoWaypoints('maloitGPS.xml')
-    println(waypoints)
+    for waypoint in waypoints:
+        println(waypoint.toString())
     
     
 def draw():
@@ -25,8 +26,8 @@ def XMLtoWaypoints(fileName):
     totalTime = 0
     for trkpt in root[1][3]:
         println("yes")
-        lat = trkpt.get('lat')
-        lon = trkpt.get('lon')
+        lat = float(trkpt.get('lat'))
+        lon = float(trkpt.get('lon'))
         ele = float(trkpt[0].text)
         time = trkpt[1].text
         
@@ -52,7 +53,8 @@ def calcNextValues():
 
 def calcSpeed():
     for i in range(len(waypoints)-1):
-        waypoints[i].speed = waypoints[i].nextDistance/waypoints[i].nextTime
+        if waypoints[i].nextTime != 0:
+            waypoints[i].speed = waypoints[i].nextDistance/waypoints[i].nextTime
 
 def getDistance(a, b):
     xSquared = ((111321 * cos(PI/180 * (a.lattitude + b.lattitude)/2)) * (b.longitude - a.longitude)) ** 2
@@ -75,3 +77,24 @@ def getTime (a, b):
     
     return time
     
+class Waypoint:
+    
+    def __init__(self, lat, lon, elev, dateTime):
+        self.lattitude = lat
+        self.longitude = lon
+        self.elevation = elev
+        self.time = dateTime[dateTime.find("T") + 1:len(dateTime) - 1]
+        
+        self.prevDistance = 0.0
+        self.nextDistance = 0.0
+        self.totalDistance = 0.0
+        
+        self.prevTime = 0
+        self.nextTime = 0
+        self.totalTime = 0
+        
+        self.speed = 0.0
+        self.slope = 0.0
+        
+    def toString(self):
+        return "Lattitude: " + str(self.lattitude) + " Longitude: " + str(self.longitude) + " Slope: " + str(self.slope) + "\nElevation: " + str(self.elevation) + " Time: " + self.time + " | " + str(self.totalTime) + "s Speed:" + str(self.speed) + "m/s\nPrev Distance: " + str(self.prevDistance) + " Next Distance: " + str(self.nextDistance) + " Total Distance: " + str(self.totalDistance)
