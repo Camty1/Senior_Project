@@ -1,0 +1,2631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="EasyGPS 7.06 using Garmin Forerunner 735XT" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.topografix.com/GPX/gpx_style/0/2 http://www.topografix.com/GPX/gpx_style/0/2/gpx_style.xsd http://www.topografix.com/GPX/gpx_overlay/0/3 http://www.topografix.com/GPX/gpx_overlay/0/3/gpx_overlay.xsd http://www.topografix.com/GPX/gpx_modified/0/1 http://www.topografix.com/GPX/gpx_modified/0/1/gpx_modified.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www8.garmin.com/xmlschemas/TrackPointExtensionv1.xsd">
+<metadata>
+<bounds minlat="39.56058783" minlon="-106.41949127" maxlat="39.56475104" maxlon="-106.41487569"/>
+<extensions>
+<time xmlns="http://www.topografix.com/GPX/gpx_modified/0/1">2019-03-07T21:40:04.470Z</time>
+</extensions>
+</metadata>
+<trk>
+<name>3/6/2019 14:21:06</name>
+<type>GPS Tracklog</type>
+<extensions>
+<label xmlns="http://www.topografix.com/GPX/gpx_overlay/0/3">
+<label_text>3/6/2019 14:21:09</label_text>
+</label>
+<line xmlns="http://www.topografix.com/GPX/gpx_style/0/2">
+<color>ff6820</color>
+<opacity>1.00</opacity>
+<width>0.8330</width>
+<pattern>Solid</pattern>
+</line>
+</extensions>
+<trkseg>
+<trkpt lat="39.56309519" lon="-106.41608025">
+<ele>2453.200</ele>
+<time>2019-03-06T21:21:09Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>104</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56309477" lon="-106.41607514">
+<ele>2453.200</ele>
+<time>2019-03-06T21:21:10Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>107</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56309678" lon="-106.41607195">
+<ele>2453.200</ele>
+<time>2019-03-06T21:21:11Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>107</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56308815" lon="-106.41610338">
+<ele>2453.400</ele>
+<time>2019-03-06T21:21:16Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>113</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56307298" lon="-106.41615686">
+<ele>2453.400</ele>
+<time>2019-03-06T21:21:19Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>110</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56306761" lon="-106.41617916">
+<ele>2453.400</ele>
+<time>2019-03-06T21:21:20Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>106</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56300299" lon="-106.41639130">
+<ele>2453.600</ele>
+<time>2019-03-06T21:21:28Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>101</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56299427" lon="-106.41641972">
+<ele>2453.800</ele>
+<time>2019-03-06T21:21:29Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>94</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56298748" lon="-106.41644805">
+<ele>2453.800</ele>
+<time>2019-03-06T21:21:30Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>91</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56297198" lon="-106.41650337">
+<ele>2454.200</ele>
+<time>2019-03-06T21:21:32Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>96</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56296410" lon="-106.41653153">
+<ele>2454.200</ele>
+<time>2019-03-06T21:21:33Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>106</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56293753" lon="-106.41661812">
+<ele>2454.200</ele>
+<time>2019-03-06T21:21:36Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>109</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56291423" lon="-106.41667537">
+<ele>2454.200</ele>
+<time>2019-03-06T21:21:38Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>105</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56290190" lon="-106.41670487">
+<ele>2454.000</ele>
+<time>2019-03-06T21:21:39Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>102</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56289277" lon="-106.41673437">
+<ele>2454.000</ele>
+<time>2019-03-06T21:21:40Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>98</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56288154" lon="-106.41676329">
+<ele>2453.800</ele>
+<time>2019-03-06T21:21:41Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>95</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56287274" lon="-106.41679271">
+<ele>2453.200</ele>
+<time>2019-03-06T21:21:42Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>95</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56286293" lon="-106.41682171">
+<ele>2453.200</ele>
+<time>2019-03-06T21:21:43Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>99</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56284801" lon="-106.41687854">
+<ele>2452.600</ele>
+<time>2019-03-06T21:21:45Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>102</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56282379" lon="-106.41696513">
+<ele>2451.600</ele>
+<time>2019-03-06T21:21:48Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>97</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56279721" lon="-106.41705272">
+<ele>2451.400</ele>
+<time>2019-03-06T21:21:51Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>100</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56277995" lon="-106.41710963">
+<ele>2451.400</ele>
+<time>2019-03-06T21:21:53Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>97</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56276863" lon="-106.41716369">
+<ele>2451.400</ele>
+<time>2019-03-06T21:21:55Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>92</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56277375" lon="-106.41724265">
+<ele>2451.200</ele>
+<time>2019-03-06T21:21:58Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>97</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56277819" lon="-106.41726947">
+<ele>2451.000</ele>
+<time>2019-03-06T21:21:59Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>100</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56278313" lon="-106.41729412">
+<ele>2451.000</ele>
+<time>2019-03-06T21:22:00Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>104</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56279193" lon="-106.41731457">
+<ele>2451.000</ele>
+<time>2019-03-06T21:22:01Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>101</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56280409" lon="-106.41733561">
+<ele>2451.200</ele>
+<time>2019-03-06T21:22:02Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>95</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56283125" lon="-106.41737391">
+<ele>2451.200</ele>
+<time>2019-03-06T21:22:04Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>91</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56286528" lon="-106.41739822">
+<ele>2451.400</ele>
+<time>2019-03-06T21:22:06Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>100</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56290258" lon="-106.41741557">
+<ele>2451.200</ele>
+<time>2019-03-06T21:22:08Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>103</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56291909" lon="-106.41741901">
+<ele>2451.000</ele>
+<time>2019-03-06T21:22:09Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>98</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56302034" lon="-106.41740853">
+<ele>2450.000</ele>
+<time>2019-03-06T21:22:15Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>102</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56303685" lon="-106.41740325">
+<ele>2450.000</ele>
+<time>2019-03-06T21:22:16Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>102</hr>
+<cad>83</cad>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56306661" lon="-106.41738397">
+<ele>2450.000</ele>
+<time>2019-03-06T21:22:18Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>99</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56308329" lon="-106.41737148">
+<ele>2450.000</ele>
+<time>2019-03-06T21:22:19Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>94</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56319770" lon="-106.41727098">
+<ele>2451.000</ele>
+<time>2019-03-06T21:22:25Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>97</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56324984" lon="-106.41713872">
+<ele>2451.200</ele>
+<time>2019-03-06T21:22:30Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>101</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56336710" lon="-106.41677536">
+<ele>2450.600</ele>
+<time>2019-03-06T21:22:42Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>97</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56337582" lon="-106.41674552">
+<ele>2450.400</ele>
+<time>2019-03-06T21:22:43Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>93</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56338361" lon="-106.41671459">
+<ele>2450.400</ele>
+<time>2019-03-06T21:22:44Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>93</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56340138" lon="-106.41665248">
+<ele>2450.400</ele>
+<time>2019-03-06T21:22:46Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>96</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56342142" lon="-106.41659247">
+<ele>2450.400</ele>
+<time>2019-03-06T21:22:48Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>100</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56343131" lon="-106.41656355">
+<ele>2450.600</ele>
+<time>2019-03-06T21:22:49Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>103</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56344061" lon="-106.41653455">
+<ele>2450.800</ele>
+<time>2019-03-06T21:22:50Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>103</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56345226" lon="-106.41650605">
+<ele>2451.000</ele>
+<time>2019-03-06T21:22:51Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>99</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56354957" lon="-106.41636356">
+<ele>2451.400</ele>
+<time>2019-03-06T21:22:57Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>102</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56361202" lon="-106.41630874">
+<ele>2451.600</ele>
+<time>2019-03-06T21:23:00Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>105</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56368972" lon="-106.41624127">
+<ele>2451.200</ele>
+<time>2019-03-06T21:23:04Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>101</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56371302" lon="-106.41622752">
+<ele>2451.200</ele>
+<time>2019-03-06T21:23:05Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>95</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56373674" lon="-106.41621403">
+<ele>2451.200</ele>
+<time>2019-03-06T21:23:06Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>95</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56381612" lon="-106.41615611">
+<ele>2451.000</ele>
+<time>2019-03-06T21:23:10Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>98</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56385241" lon="-106.41613063">
+<ele>2450.800</ele>
+<time>2019-03-06T21:23:12Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>102</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56386784" lon="-106.41612023">
+<ele>2450.600</ele>
+<time>2019-03-06T21:23:13Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>105</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56389650" lon="-106.41611780">
+<ele>2450.200</ele>
+<time>2019-03-06T21:23:15Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>100</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56391620" lon="-106.41612384">
+<ele>2450.000</ele>
+<time>2019-03-06T21:23:16Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>97</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56394352" lon="-106.41613582">
+<ele>2449.800</ele>
+<time>2019-03-06T21:23:17Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>94</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56398275" lon="-106.41616466">
+<ele>2449.600</ele>
+<time>2019-03-06T21:23:19Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>100</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56400840" lon="-106.41618419">
+<ele>2449.600</ele>
+<time>2019-03-06T21:23:20Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>104</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56403246" lon="-106.41620229">
+<ele>2449.400</ele>
+<time>2019-03-06T21:23:21Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>107</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56405559" lon="-106.41622224">
+<ele>2449.400</ele>
+<time>2019-03-06T21:23:22Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>107</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56425332" lon="-106.41636130">
+<ele>2448.400</ele>
+<time>2019-03-06T21:23:32Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>112</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56427285" lon="-106.41635928">
+<ele>2448.200</ele>
+<time>2019-03-06T21:23:33Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>115</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56429204" lon="-106.41635660">
+<ele>2448.200</ele>
+<time>2019-03-06T21:23:34Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>115</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56438357" lon="-106.41631796">
+<ele>2449.600</ele>
+<time>2019-03-06T21:23:40Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>109</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56439774" lon="-106.41631268">
+<ele>2450.000</ele>
+<time>2019-03-06T21:23:41Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>109</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56441534" lon="-106.41630698">
+<ele>2450.000</ele>
+<time>2019-03-06T21:23:42Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>113</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56446194" lon="-106.41629390">
+<ele>2450.000</ele>
+<time>2019-03-06T21:23:45Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>110</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56454124" lon="-106.41626909">
+<ele>2448.600</ele>
+<time>2019-03-06T21:23:52Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>103</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56456110" lon="-106.41626289">
+<ele>2448.400</ele>
+<time>2019-03-06T21:23:53Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>104</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56460947" lon="-106.41624311">
+<ele>2448.200</ele>
+<time>2019-03-06T21:23:55Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>108</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56472195" lon="-106.41610724">
+<ele>2448.000</ele>
+<time>2019-03-06T21:24:01Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>105</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56473729" lon="-106.41608520">
+<ele>2448.400</ele>
+<time>2019-03-06T21:24:02Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>102</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56475104" lon="-106.41603365">
+<ele>2448.400</ele>
+<time>2019-03-06T21:24:04Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>105</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56475062" lon="-106.41594798">
+<ele>2448.800</ele>
+<time>2019-03-06T21:24:07Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>108</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56467971" lon="-106.41570097">
+<ele>2448.200</ele>
+<time>2019-03-06T21:24:16Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>112</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56465599" lon="-106.41564732">
+<ele>2447.800</ele>
+<time>2019-03-06T21:24:18Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>109</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56456202" lon="-106.41542730">
+<ele>2446.600</ele>
+<time>2019-03-06T21:24:26Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>105</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56453713" lon="-106.41537240">
+<ele>2446.200</ele>
+<time>2019-03-06T21:24:28Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>101</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56448114" lon="-106.41526100">
+<ele>2445.600</ele>
+<time>2019-03-06T21:24:32Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>104</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56443990" lon="-106.41514768">
+<ele>2445.600</ele>
+<time>2019-03-06T21:24:36Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>107</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56438081" lon="-106.41501173">
+<ele>2446.000</ele>
+<time>2019-03-06T21:24:41Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>101</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56436832" lon="-106.41498415">
+<ele>2446.000</ele>
+<time>2019-03-06T21:24:42Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>97</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56435583" lon="-106.41496060">
+<ele>2446.000</ele>
+<time>2019-03-06T21:24:43Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>93</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56434233" lon="-106.41494065">
+<ele>2446.000</ele>
+<time>2019-03-06T21:24:44Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>93</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56430830" lon="-106.41491349">
+<ele>2446.000</ele>
+<time>2019-03-06T21:24:46Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>97</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56429045" lon="-106.41490134">
+<ele>2446.000</ele>
+<time>2019-03-06T21:24:47Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>101</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56427168" lon="-106.41489279">
+<ele>2445.800</ele>
+<time>2019-03-06T21:24:48Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>105</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56421141" lon="-106.41487569">
+<ele>2445.600</ele>
+<time>2019-03-06T21:24:51Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>96</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56419238" lon="-106.41487795">
+<ele>2445.400</ele>
+<time>2019-03-06T21:24:52Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>92</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56417260" lon="-106.41488575">
+<ele>2445.400</ele>
+<time>2019-03-06T21:24:53Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>93</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56414955" lon="-106.41489220">
+<ele>2445.400</ele>
+<time>2019-03-06T21:24:54Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>96</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56410194" lon="-106.41491676">
+<ele>2445.200</ele>
+<time>2019-03-06T21:24:56Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>101</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56407814" lon="-106.41492967">
+<ele>2445.200</ele>
+<time>2019-03-06T21:24:57Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>104</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56397697" lon="-106.41495657">
+<ele>2444.600</ele>
+<time>2019-03-06T21:25:01Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>100</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56395459" lon="-106.41496135">
+<ele>2444.600</ele>
+<time>2019-03-06T21:25:02Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>97</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56393355" lon="-106.41496931">
+<ele>2444.400</ele>
+<time>2019-03-06T21:25:03Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>94</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56383758" lon="-106.41499655">
+<ele>2443.600</ele>
+<time>2019-03-06T21:25:07Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>98</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56381386" lon="-106.41499479">
+<ele>2443.600</ele>
+<time>2019-03-06T21:25:08Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>102</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56379139" lon="-106.41499253">
+<ele>2443.400</ele>
+<time>2019-03-06T21:25:09Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>106</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56357916" lon="-106.41498189">
+<ele>2443.000</ele>
+<time>2019-03-06T21:25:18Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>109</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56334229" lon="-106.41506562">
+<ele>2439.200</ele>
+<time>2019-03-06T21:25:28Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>103</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56331631" lon="-106.41507710">
+<ele>2438.800</ele>
+<time>2019-03-06T21:25:29Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>95</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56329200" lon="-106.41508758">
+<ele>2438.000</ele>
+<time>2019-03-06T21:25:30Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>92</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56324422" lon="-106.41510493">
+<ele>2437.400</ele>
+<time>2019-03-06T21:25:32Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>95</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56321975" lon="-106.41511482">
+<ele>2437.600</ele>
+<time>2019-03-06T21:25:33Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>98</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56315185" lon="-106.41515891">
+<ele>2436.800</ele>
+<time>2019-03-06T21:25:36Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>101</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56309360" lon="-106.41521574">
+<ele>2436.600</ele>
+<time>2019-03-06T21:25:39Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>104</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56296452" lon="-106.41541003">
+<ele>2442.200</ele>
+<time>2019-03-06T21:25:48Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>101</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56292034" lon="-106.41548488">
+<ele>2443.600</ele>
+<time>2019-03-06T21:25:51Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>104</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56285857" lon="-106.41560374">
+<ele>2446.200</ele>
+<time>2019-03-06T21:25:56Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>107</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56279009" lon="-106.41575939">
+<ele>2448.200</ele>
+<time>2019-03-06T21:26:02Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>104</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56277676" lon="-106.41578822">
+<ele>2448.600</ele>
+<time>2019-03-06T21:26:03Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>100</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56255741" lon="-106.41599962">
+<ele>2445.800</ele>
+<time>2019-03-06T21:26:13Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>103</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56251148" lon="-106.41601152">
+<ele>2445.000</ele>
+<time>2019-03-06T21:26:15Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>106</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56245540" lon="-106.41600817">
+<ele>2444.400</ele>
+<time>2019-03-06T21:26:18Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>101</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56243378" lon="-106.41600297">
+<ele>2445.600</ele>
+<time>2019-03-06T21:26:19Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>101</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56237418" lon="-106.41598470">
+<ele>2450.000</ele>
+<time>2019-03-06T21:26:22Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>106</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56233453" lon="-106.41597020">
+<ele>2450.600</ele>
+<time>2019-03-06T21:26:24Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>109</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56229304" lon="-106.41595645">
+<ele>2451.600</ele>
+<time>2019-03-06T21:26:26Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>105</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56219137" lon="-106.41594262">
+<ele>2454.000</ele>
+<time>2019-03-06T21:26:30Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>109</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56174193" lon="-106.41605217">
+<ele>2456.000</ele>
+<time>2019-03-06T21:26:50Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>111</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56166373" lon="-106.41605427">
+<ele>2455.000</ele>
+<time>2019-03-06T21:26:54Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>105</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56164772" lon="-106.41605251">
+<ele>2454.800</ele>
+<time>2019-03-06T21:26:55Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>102</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56162618" lon="-106.41604899">
+<ele>2455.600</ele>
+<time>2019-03-06T21:26:56Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>97</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56160413" lon="-106.41604169">
+<ele>2456.800</ele>
+<time>2019-03-06T21:26:57Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>99</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56158469" lon="-106.41602887">
+<ele>2457.000</ele>
+<time>2019-03-06T21:26:58Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>103</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56154479" lon="-106.41599936">
+<ele>2457.400</ele>
+<time>2019-03-06T21:27:00Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>106</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56133231" lon="-106.41580599">
+<ele>2467.000</ele>
+<time>2019-03-06T21:27:11Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>102</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56124857" lon="-106.41579711">
+<ele>2467.800</ele>
+<time>2019-03-06T21:27:15Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>105</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56122980" lon="-106.41580859">
+<ele>2467.800</ele>
+<time>2019-03-06T21:27:16Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>108</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56114992" lon="-106.41587263">
+<ele>2466.600</ele>
+<time>2019-03-06T21:27:20Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>103</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56110508" lon="-106.41589233">
+<ele>2465.800</ele>
+<time>2019-03-06T21:27:22Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>99</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56105076" lon="-106.41591169">
+<ele>2465.000</ele>
+<time>2019-03-06T21:27:24Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>102</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56102394" lon="-106.41592133">
+<ele>2464.800</ele>
+<time>2019-03-06T21:27:25Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>106</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56099728" lon="-106.41592527">
+<ele>2465.400</ele>
+<time>2019-03-06T21:27:26Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>109</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56086669" lon="-106.41595469">
+<ele>2464.400</ele>
+<time>2019-03-06T21:27:31Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>106</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56084121" lon="-106.41596131">
+<ele>2464.200</ele>
+<time>2019-03-06T21:27:32Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>103</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56080324" lon="-106.41599082">
+<ele>2464.200</ele>
+<time>2019-03-06T21:27:34Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>99</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56076377" lon="-106.41605184">
+<ele>2464.400</ele>
+<time>2019-03-06T21:27:37Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>102</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56075463" lon="-106.41607304">
+<ele>2465.200</ele>
+<time>2019-03-06T21:27:38Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>105</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56070518" lon="-106.41625786">
+<ele>2467.200</ele>
+<time>2019-03-06T21:27:45Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>102</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56066519" lon="-106.41647965">
+<ele>2466.800</ele>
+<time>2019-03-06T21:27:53Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>105</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56063720" lon="-106.41655651">
+<ele>2467.600</ele>
+<time>2019-03-06T21:27:56Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>99</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56059294" lon="-106.41671937">
+<ele>2468.000</ele>
+<time>2019-03-06T21:28:01Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>103</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56058783" lon="-106.41675407">
+<ele>2468.200</ele>
+<time>2019-03-06T21:28:02Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>106</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56058808" lon="-106.41681786">
+<ele>2468.600</ele>
+<time>2019-03-06T21:28:04Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>109</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56060904" lon="-106.41686421">
+<ele>2467.800</ele>
+<time>2019-03-06T21:28:06Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>106</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56069009" lon="-106.41697854">
+<ele>2469.600</ele>
+<time>2019-03-06T21:28:11Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>111</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56071984" lon="-106.41703000">
+<ele>2471.000</ele>
+<time>2019-03-06T21:28:13Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>114</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56073116" lon="-106.41705574">
+<ele>2472.200</ele>
+<time>2019-03-06T21:28:14Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>111</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56074524" lon="-106.41708524">
+<ele>2472.800</ele>
+<time>2019-03-06T21:28:15Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>107</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56075756" lon="-106.41711290">
+<ele>2473.600</ele>
+<time>2019-03-06T21:28:16Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>108</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56084046" lon="-106.41719529">
+<ele>2475.000</ele>
+<time>2019-03-06T21:28:22Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>112</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56087516" lon="-106.41717920">
+<ele>2475.600</ele>
+<time>2019-03-06T21:28:24Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>115</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56098354" lon="-106.41709672">
+<ele>2472.200</ele>
+<time>2019-03-06T21:28:30Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>112</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56100265" lon="-106.41708222">
+<ele>2471.400</ele>
+<time>2019-03-06T21:28:31Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>108</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56102528" lon="-106.41706722">
+<ele>2471.200</ele>
+<time>2019-03-06T21:28:32Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>103</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56122276" lon="-106.41708952">
+<ele>2470.000</ele>
+<time>2019-03-06T21:28:40Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>106</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56127598" lon="-106.41715691">
+<ele>2470.400</ele>
+<time>2019-03-06T21:28:43Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>102</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56131940" lon="-106.41723679">
+<ele>2471.000</ele>
+<time>2019-03-06T21:28:46Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>105</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56134580" lon="-106.41728498">
+<ele>2470.800</ele>
+<time>2019-03-06T21:28:48Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>108</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56138176" lon="-106.41732614">
+<ele>2470.800</ele>
+<time>2019-03-06T21:28:50Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>111</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56154228" lon="-106.41742412">
+<ele>2469.200</ele>
+<time>2019-03-06T21:28:57Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>108</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56159072" lon="-106.41744767">
+<ele>2469.000</ele>
+<time>2019-03-06T21:28:59Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>105</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56163783" lon="-106.41746829">
+<ele>2469.000</ele>
+<time>2019-03-06T21:29:01Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>108</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56168720" lon="-106.41748355">
+<ele>2468.200</ele>
+<time>2019-03-06T21:29:03Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>111</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56171184" lon="-106.41748506">
+<ele>2468.000</ele>
+<time>2019-03-06T21:29:04Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>108</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56180253" lon="-106.41738573">
+<ele>2467.400</ele>
+<time>2019-03-06T21:29:11Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>114</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56180195" lon="-106.41736100">
+<ele>2467.000</ele>
+<time>2019-03-06T21:29:12Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>117</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56179918" lon="-106.41733829">
+<ele>2467.200</ele>
+<time>2019-03-06T21:29:13Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>120</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56179181" lon="-106.41731767">
+<ele>2467.400</ele>
+<time>2019-03-06T21:29:14Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>120</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56174034" lon="-106.41725363">
+<ele>2468.600</ele>
+<time>2019-03-06T21:29:17Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>117</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56164294" lon="-106.41715196">
+<ele>2470.400</ele>
+<time>2019-03-06T21:29:22Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>114</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56160455" lon="-106.41711231">
+<ele>2470.800</ele>
+<time>2019-03-06T21:29:24Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>110</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56158460" lon="-106.41663773">
+<ele>2467.000</ele>
+<time>2019-03-06T21:29:44Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>106</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56161830" lon="-106.41662331">
+<ele>2465.600</ele>
+<time>2019-03-06T21:29:46Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>103</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56168812" lon="-106.41661963">
+<ele>2465.000</ele>
+<time>2019-03-06T21:29:49Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>106</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56174202" lon="-106.41663848">
+<ele>2464.800</ele>
+<time>2019-03-06T21:29:51Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>109</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56191804" lon="-106.41694216">
+<ele>2465.400</ele>
+<time>2019-03-06T21:30:03Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>104</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56191812" lon="-106.41707074">
+<ele>2465.200</ele>
+<time>2019-03-06T21:30:07Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>108</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56191603" lon="-106.41711826">
+<ele>2465.200</ele>
+<time>2019-03-06T21:30:09Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>105</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56194972" lon="-106.41723469">
+<ele>2463.800</ele>
+<time>2019-03-06T21:30:14Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>110</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56203262" lon="-106.41750090">
+<ele>2465.400</ele>
+<time>2019-03-06T21:30:25Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>102</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56196338" lon="-106.41755404">
+<ele>2466.800</ele>
+<time>2019-03-06T21:30:28Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>106</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56193363" lon="-106.41756401">
+<ele>2467.400</ele>
+<time>2019-03-06T21:30:29Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>109</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56188308" lon="-106.41756452">
+<ele>2468.000</ele>
+<time>2019-03-06T21:30:31Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>105</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56185836" lon="-106.41756083">
+<ele>2468.000</ele>
+<time>2019-03-06T21:30:32Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>102</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56178267" lon="-106.41754474">
+<ele>2468.600</ele>
+<time>2019-03-06T21:30:35Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>105</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56173087" lon="-106.41753535">
+<ele>2469.200</ele>
+<time>2019-03-06T21:30:37Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>108</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56165225" lon="-106.41751867">
+<ele>2469.600</ele>
+<time>2019-03-06T21:30:40Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>112</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56160103" lon="-106.41750375">
+<ele>2470.000</ele>
+<time>2019-03-06T21:30:42Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>115</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56152560" lon="-106.41747852">
+<ele>2470.000</ele>
+<time>2019-03-06T21:30:45Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>119</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56124547" lon="-106.41748992">
+<ele>2472.200</ele>
+<time>2019-03-06T21:30:55Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>116</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56121815" lon="-106.41749671">
+<ele>2472.200</ele>
+<time>2019-03-06T21:30:56Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>111</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56119066" lon="-106.41750434">
+<ele>2472.000</ele>
+<time>2019-03-06T21:30:57Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>107</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56098153" lon="-106.41770441">
+<ele>2467.200</ele>
+<time>2019-03-06T21:31:08Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>112</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56097030" lon="-106.41794782">
+<ele>2460.800</ele>
+<time>2019-03-06T21:31:17Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>116</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56098102" lon="-106.41797129">
+<ele>2460.800</ele>
+<time>2019-03-06T21:31:18Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>116</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56101153" lon="-106.41801555">
+<ele>2461.200</ele>
+<time>2019-03-06T21:31:20Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>119</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56115746" lon="-106.41807875">
+<ele>2462.200</ele>
+<time>2019-03-06T21:31:27Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>115</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56120457" lon="-106.41806592">
+<ele>2462.600</ele>
+<time>2019-03-06T21:31:29Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>111</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56134329" lon="-106.41812443">
+<ele>2460.600</ele>
+<time>2019-03-06T21:31:35Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>114</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56139543" lon="-106.41819752">
+<ele>2458.400</ele>
+<time>2019-03-06T21:31:38Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>117</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56146776" lon="-106.41828385">
+<ele>2455.800</ele>
+<time>2019-03-06T21:31:42Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>111</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56149106" lon="-106.41830489">
+<ele>2456.400</ele>
+<time>2019-03-06T21:31:43Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>108</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56153549" lon="-106.41834253">
+<ele>2456.800</ele>
+<time>2019-03-06T21:31:45Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>111</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56157790" lon="-106.41837899">
+<ele>2456.600</ele>
+<time>2019-03-06T21:31:47Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>116</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56159877" lon="-106.41839969">
+<ele>2456.200</ele>
+<time>2019-03-06T21:31:48Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>119</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56164789" lon="-106.41847186">
+<ele>2455.600</ele>
+<time>2019-03-06T21:31:51Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>115</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56165359" lon="-106.41850128">
+<ele>2455.400</ele>
+<time>2019-03-06T21:31:52Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>109</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56165677" lon="-106.41853263">
+<ele>2455.200</ele>
+<time>2019-03-06T21:31:53Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>112</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56165443" lon="-106.41860421">
+<ele>2454.800</ele>
+<time>2019-03-06T21:31:55Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>115</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56165158" lon="-106.41863966">
+<ele>2454.800</ele>
+<time>2019-03-06T21:31:56Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>112</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56164839" lon="-106.41870823">
+<ele>2455.600</ele>
+<time>2019-03-06T21:31:58Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>103</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56165208" lon="-106.41881049">
+<ele>2455.400</ele>
+<time>2019-03-06T21:32:01Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>106</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56165250" lon="-106.41884812">
+<ele>2455.000</ele>
+<time>2019-03-06T21:32:02Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>109</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56164671" lon="-106.41898433">
+<ele>2454.400</ele>
+<time>2019-03-06T21:32:06Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>106</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56164294" lon="-106.41911869">
+<ele>2454.000</ele>
+<time>2019-03-06T21:32:10Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>111</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56164747" lon="-106.41918633">
+<ele>2453.000</ele>
+<time>2019-03-06T21:32:12Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>115</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56165325" lon="-106.41924501">
+<ele>2452.600</ele>
+<time>2019-03-06T21:32:14Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>112</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56165686" lon="-106.41927417">
+<ele>2452.200</ele>
+<time>2019-03-06T21:32:15Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>108</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56166205" lon="-106.41930401">
+<ele>2452.200</ele>
+<time>2019-03-06T21:32:16Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>105</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56167052" lon="-106.41933126">
+<ele>2452.200</ele>
+<time>2019-03-06T21:32:17Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>105</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56172903" lon="-106.41940342">
+<ele>2456.200</ele>
+<time>2019-03-06T21:32:22Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>109</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56174638" lon="-106.41940929">
+<ele>2456.200</ele>
+<time>2019-03-06T21:32:23Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>112</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56176465" lon="-106.41941449">
+<ele>2456.200</ele>
+<time>2019-03-06T21:32:24Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>116</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56191753" lon="-106.41946319">
+<ele>2453.000</ele>
+<time>2019-03-06T21:32:31Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>113</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56218902" lon="-106.41944877">
+<ele>2448.800</ele>
+<time>2019-03-06T21:32:44Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>110</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56220746" lon="-106.41945489">
+<ele>2448.600</ele>
+<time>2019-03-06T21:32:45Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>107</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56222725" lon="-106.41946185">
+<ele>2448.400</ele>
+<time>2019-03-06T21:32:46Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>102</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56232992" lon="-106.41949127">
+<ele>2449.000</ele>
+<time>2019-03-06T21:32:50Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>107</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56241676" lon="-106.41948925">
+<ele>2449.800</ele>
+<time>2019-03-06T21:32:53Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>110</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56244501" lon="-106.41947869">
+<ele>2450.200</ele>
+<time>2019-03-06T21:32:54Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>113</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56251542" lon="-106.41942832">
+<ele>2451.000</ele>
+<time>2019-03-06T21:32:57Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>109</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56253821" lon="-106.41940468">
+<ele>2452.000</ele>
+<time>2019-03-06T21:32:58Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>109</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56257895" lon="-106.41934743">
+<ele>2453.400</ele>
+<time>2019-03-06T21:33:00Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>106</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56262262" lon="-106.41920310">
+<ele>2454.200</ele>
+<time>2019-03-06T21:33:05Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>110</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56267291" lon="-106.41891099">
+<ele>2456.400</ele>
+<time>2019-03-06T21:33:13Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>114</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56265254" lon="-106.41877076">
+<ele>2454.600</ele>
+<time>2019-03-06T21:33:17Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>111</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56259731" lon="-106.41856347">
+<ele>2454.000</ele>
+<time>2019-03-06T21:33:23Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>107</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56257836" lon="-106.41812904">
+<ele>2456.000</ele>
+<time>2019-03-06T21:33:35Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>104</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56258096" lon="-106.41809300">
+<ele>2455.800</ele>
+<time>2019-03-06T21:33:36Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>107</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56258649" lon="-106.41805503">
+<ele>2456.000</ele>
+<time>2019-03-06T21:33:37Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>110</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56258239" lon="-106.41795168">
+<ele>2454.800</ele>
+<time>2019-03-06T21:33:40Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>113</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56257853" lon="-106.41791865">
+<ele>2454.400</ele>
+<time>2019-03-06T21:33:41Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>109</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56257417" lon="-106.41788471">
+<ele>2454.800</ele>
+<time>2019-03-06T21:33:42Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>106</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56256026" lon="-106.41779385">
+<ele>2455.400</ele>
+<time>2019-03-06T21:33:45Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>110</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56253235" lon="-106.41760810">
+<ele>2454.000</ele>
+<time>2019-03-06T21:33:51Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>102</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56251868" lon="-106.41747014">
+<ele>2453.800</ele>
+<time>2019-03-06T21:33:55Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>107</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56251592" lon="-106.41740535">
+<ele>2454.200</ele>
+<time>2019-03-06T21:33:57Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>110</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56250184" lon="-106.41727082">
+<ele>2454.600</ele>
+<time>2019-03-06T21:34:01Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>107</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56252405" lon="-106.41703989">
+<ele>2455.400</ele>
+<time>2019-03-06T21:34:08Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>110</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56258708" lon="-106.41691241">
+<ele>2454.800</ele>
+<time>2019-03-06T21:34:12Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>107</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56260393" lon="-106.41688340">
+<ele>2454.600</ele>
+<time>2019-03-06T21:34:13Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>104</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56269211" lon="-106.41672641">
+<ele>2454.400</ele>
+<time>2019-03-06T21:34:18Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>107</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56271063" lon="-106.41669372">
+<ele>2454.400</ele>
+<time>2019-03-06T21:34:19Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>110</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56274801" lon="-106.41662784">
+<ele>2454.800</ele>
+<time>2019-03-06T21:34:21Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>114</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56282714" lon="-106.41649683">
+<ele>2455.400</ele>
+<time>2019-03-06T21:34:25Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>111</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56284642" lon="-106.41646314">
+<ele>2455.400</ele>
+<time>2019-03-06T21:34:26Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>105</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56288237" lon="-106.41639658">
+<ele>2455.400</ele>
+<time>2019-03-06T21:34:28Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>101</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56295069" lon="-106.41626851">
+<ele>2454.600</ele>
+<time>2019-03-06T21:34:32Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>105</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56296670" lon="-106.41623389">
+<ele>2454.400</ele>
+<time>2019-03-06T21:34:33Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>108</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56298354" lon="-106.41619835">
+<ele>2454.000</ele>
+<time>2019-03-06T21:34:34Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>111</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56303275" lon="-106.41609115">
+<ele>2453.000</ele>
+<time>2019-03-06T21:34:37Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>114</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56306359" lon="-106.41601806">
+<ele>2452.400</ele>
+<time>2019-03-06T21:34:39Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>111</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56318655" lon="-106.41575210">
+<ele>2451.200</ele>
+<time>2019-03-06T21:34:47Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>108</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56321681" lon="-106.41568731">
+<ele>2451.000</ele>
+<time>2019-03-06T21:34:49Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>105</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56331723" lon="-106.41550584">
+<ele>2450.400</ele>
+<time>2019-03-06T21:34:55Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>108</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56335662" lon="-106.41544976">
+<ele>2450.200</ele>
+<time>2019-03-06T21:34:57Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>111</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56345042" lon="-106.41537257">
+<ele>2451.000</ele>
+<time>2019-03-06T21:35:01Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>115</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56350951" lon="-106.41536142">
+<ele>2451.800</ele>
+<time>2019-03-06T21:35:03Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>109</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56353985" lon="-106.41536251">
+<ele>2452.000</ele>
+<time>2019-03-06T21:35:04Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>106</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56356969" lon="-106.41537089">
+<ele>2452.400</ele>
+<time>2019-03-06T21:35:05Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>100</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56359676" lon="-106.41538153">
+<ele>2452.600</ele>
+<time>2019-03-06T21:35:06Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>103</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56362157" lon="-106.41539696">
+<ele>2452.400</ele>
+<time>2019-03-06T21:35:07Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>107</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56366508" lon="-106.41544281">
+<ele>2452.600</ele>
+<time>2019-03-06T21:35:09Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>113</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56368310" lon="-106.41547198">
+<ele>2452.800</ele>
+<time>2019-03-06T21:35:10Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>118</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56372509" lon="-106.41557516">
+<ele>2453.400</ele>
+<time>2019-03-06T21:35:13Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>113</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56376139" lon="-106.41579309">
+<ele>2454.000</ele>
+<time>2019-03-06T21:35:19Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>110</hr>
+<cad>83</cad>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56374864" lon="-106.41593868">
+<ele>2454.200</ele>
+<time>2019-03-06T21:35:23Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>113</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56372476" lon="-106.41600590">
+<ele>2454.000</ele>
+<time>2019-03-06T21:35:25Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>118</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56365971" lon="-106.41609081">
+<ele>2454.600</ele>
+<time>2019-03-06T21:35:28Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>114</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56360951" lon="-106.41613348">
+<ele>2454.600</ele>
+<time>2019-03-06T21:35:30Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>110</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56349526" lon="-106.41620967">
+<ele>2455.000</ele>
+<time>2019-03-06T21:35:34Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>115</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56341253" lon="-106.41625870">
+<ele>2454.800</ele>
+<time>2019-03-06T21:35:37Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>111</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56338629" lon="-106.41627429">
+<ele>2454.800</ele>
+<time>2019-03-06T21:35:38Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>111</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56330918" lon="-106.41631939">
+<ele>2455.000</ele>
+<time>2019-03-06T21:35:41Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>108</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="39.56328596" lon="-106.41633405">
+<ele>2455.200</ele>
+<time>2019-03-06T21:35:42Z</time>
+<extensions>
+<TrackPointExtension xmlns="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<hr>107</hr>
+</TrackPointExtension>
+</extensions>
+</trkpt>
+</trkseg>
+</trk>
+<extensions>
+</extensions>
+</gpx>

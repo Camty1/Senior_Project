@@ -7,10 +7,14 @@ byte[] cmdBytes = new byte[5];
 
 XML xml;
 Movie testVideo;
+ArrayList<PImage> movieFrames;
 Serial ergPort;
 
 int indexTimer = 0;
 
+boolean hasFinishedLoading = false;
+boolean startedWorkout = true;
+int frameCounter = 0;
 ArrayList<Waypoint> waypoints = new ArrayList<Waypoint>();
 
 
@@ -23,6 +27,7 @@ void setup(){
   
   // Movie setup
   testVideo = new Movie(this, "Maloit.mov");
+  movieFrames = new ArrayList<PImage>();
 
   // Array of trkpts
   XML[] points = trkseg.getChildren();
@@ -40,7 +45,8 @@ void setup(){
   for (int j = 0; j < waypoints.size(); j++) {
     println(waypoints.get(j).toString());
   }*/
-  testVideo.loop();
+  testVideo.play();
+  testVideo.frameRate(30);
   
   
   
@@ -52,10 +58,17 @@ void setup(){
   
 }
 
+void movieEvent (Movie m) {
+  
+  m.read();
+  movieFrames.add(m);
+  
+}
+
 void draw() {
   double skiErgSpeed = 5.0; // in m/s, this is just test data
   int timer = millis()/1000;
-  if (indexTimer < waypoints.size() && testVideo.available()) {
+  /*if (indexTimer < waypoints.size() && testVideo.available()) {
     testVideo.read();
     image (testVideo, 0, 0);
     if (timer > waypoints.get(indexTimer).getTotalTime()) {
@@ -63,12 +76,21 @@ void draw() {
       float scaleFactor = (float)(skiErgSpeed/waypoints.get(indexTimer).getSpeed());
       if (scaleFactor < 20 && scaleFactor > 0) {
         testVideo.speed(scaleFactor);
-      }
+      } 
       //println(indexTimer);
     }
+  }*/
+  
+  if (!testVideo.available() && !hasFinishedLoading) {
+    
+    hasFinishedLoading = true;
+    System.out.println("Movie array has finished loading.");
+    
   }
   
-  
+  if (hasFinishedLoading && startedWorkout) {
+    image(movieFrames.get(frameCounter), 0, 0);
+  }
 }
 
 // Convert trkpts to Waypoints
