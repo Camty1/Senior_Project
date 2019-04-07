@@ -1,8 +1,9 @@
 import xml.etree.ElementTree as ET
-#import pyrow.py
+import pyrow
 
 waypoints = []
 
+command = ['CSAFE_PM_GETWORKDISTANCE_CMD', 'CSAFE_GETPACE_CMD']
 
 def setup():
     size(1280, 720)
@@ -10,6 +11,15 @@ def setup():
     for waypoint in waypoints:
         println(waypoint.toString())
     
+    erg = list(pyrow.find())
+    if len(ergs) == 0:
+        exit("No erg connected.")
+    
+    erg = pyrow.pyrow(ergs[0])
+    println("Connected to SkiErg.")
+    
+    erg.set_workout(distance=waypoints[len(waypoints) - 1].totalDistance)
+    println("Course length: " + str(waypoints[len(waypoints) - 1].totalDistance) + " meters")
     
 def draw():
     background(200)
@@ -17,15 +27,11 @@ def draw():
 def XMLtoWaypoints(fileName):
     tree = ET.parse(fileName)
     root = tree.getroot()
-    println(root)
-
-    
     
     counter = -1
     totalDist = 0
     totalTime = 0
     for trkpt in root[1][3]:
-        println("yes")
         lat = float(trkpt.get('lat'))
         lon = float(trkpt.get('lon'))
         ele = float(trkpt[0].text)
@@ -45,6 +51,7 @@ def XMLtoWaypoints(fileName):
             waypoints[counter].totalTime = totalTime
     calcNextValues()
     calcSpeed()
+    calcSlope()
                                 
 def calcNextValues():
     for i in range(len(waypoints)-1):
@@ -56,11 +63,23 @@ def calcSpeed():
         if waypoints[i].nextTime != 0:
             waypoints[i].speed = waypoints[i].nextDistance/waypoints[i].nextTime
 
+def calcSlope():
+    for i in range(1, len(waypoints)-1):
+        prevElev = waypoints[i-1].elevation
+        nextElev = waypoints[i+1].elevation
+        
+        dis = waypoints[i].nextDistance + waypoints[i].prevDistance
+        if dis != 0:
+            slope = 180/PI * atan(float((nextElev-prevElev)/dis))
+        
+        
+        waypoints[i].slope = slope
+
 def getDistance(a, b):
-    xSquared = ((111321 * cos(PI/180 * (a.lattitude + b.lattitude)/2)) * (b.longitude - a.longitude)) ** 2
+    xSquared = (((111321 * cos(PI/180 * float(a.lattitude + b.lattitude)/2)) * (b.longitude - a.longitude)) ** 2)
     ySquared = (111321 * (a.lattitude - b.lattitude)) ** 2
     
-    d = (xSquared + ySquared) ** (1/2)
+    d = (xSquared + ySquared) ** (.5)
     return d
 
 def getTime (a, b):
@@ -85,16 +104,16 @@ class Waypoint:
         self.elevation = elev
         self.time = dateTime[dateTime.find("T") + 1:len(dateTime) - 1]
         
-        self.prevDistance = 0.0
-        self.nextDistance = 0.0
-        self.totalDistance = 0.0
+        self.prevDistance = float(0)
+        self.nextDistance = float(0)
+        self.totalDistance = float(0)
         
         self.prevTime = 0
         self.nextTime = 0
         self.totalTime = 0
         
-        self.speed = 0.0
-        self.slope = 0.0
+        self.speed = float(0)
+        self.slope = float(0)
         
     def toString(self):
         return "Lattitude: " + str(self.lattitude) + " Longitude: " + str(self.longitude) + " Slope: " + str(self.slope) + "\nElevation: " + str(self.elevation) + " Time: " + self.time + " | " + str(self.totalTime) + "s Speed:" + str(self.speed) + "m/s\nPrev Distance: " + str(self.prevDistance) + " Next Distance: " + str(self.nextDistance) + " Total Distance: " + str(self.totalDistance)
