@@ -8,9 +8,11 @@ movie = pygame.movie.Movie('Maloit.mpg')
 screen = pygame.display.set_mode((1280, 720))
 moviePlayer = pygame.Surface((1280, 720)).convert()
 
+startImage = pygame.image.load("startImage.png")
+
 waypoints = []
 
-command = ['CSAFE_PM_GETWORKDISTANCE_CMD', 'CSAFE_GETPACE_CMD']
+command = ['CSAFE_PM_GETWORKDISTANCE_CMD']
 
 XMLtoWaypoints('maloitGPS.xml')
 for waypoint in waypoints:
@@ -18,6 +20,7 @@ for waypoint in waypoints:
     
 erg = list(pyrow.find())
 if len(ergs) == 0:
+    pygame.quit()
     exit("No erg connected.")
 
 erg = pyrow.pyrow(ergs[0])
@@ -29,9 +32,22 @@ println("Course length: " + str(waypoints[len(waypoints) - 1].totalDistance) + "
 movie.set_display(moviePlayer)
 movie.play()
 
-playing = True
-while playing:
-    fps = calcFPS()
+# Game Loops
+
+state = 0
+while state == 0: # Before Workout has Started
+    screen.blit(startImage, (0,200))
+    pygame.display.update()
+    monitor = erg.get_monitor()
+    if monitor['time'] > 0:
+        state = 1
+        
+counter = 0
+fps = calcFPS()
+index = 1
+while state == 1: # During Workout
+    if counter % 10 == 0:
+        fps = calcFPS()
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             movie.stop()
@@ -96,6 +112,20 @@ def calcSlope():
 
 def calcFPS():
     DEFAULT_FPS = 30
+    monitor = erg.get_monitor()
+    result = erg.send(command)
+    
+    pace = monitor['pace']
+    speed = 500/pace
+    
+    if monitor['distance'] > waypoints[index].totalDist:
+        index = index + 1
+    
+    waypointSpeed = waypoints[index].speed
+    
+    ratio = speed/waypointSpeed
+    
+    return ratio * DEFAULT_FPS
     
 
 def getDistance(a, b):
